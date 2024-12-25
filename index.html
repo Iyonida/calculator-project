@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="calc_container">
+      <div class="calc_display">
+        <div class="display_input"></div>
+        <div class="display_output"></div>
+      </div>
+      <div class="calc_keys">
+        <div class="num_key_container">
+          <button class="btn num_key btn-9" data-value="9">9</button>
+          <button class="btn num_key btn-8" data-value="8">8</button>
+          <button class="btn num_key btn-7" data-value="7">7</button>
+          <button class="btn num_key btn-6" data-value="6">6</button>
+          <button class="btn num_key btn-5" data-value="5">5</button>
+          <button class="btn num_key btn-4" data-value="4">4</button>
+          <button class="btn num_key btn-3" data-value="3">3</button>
+          <button class="btn num_key btn-2" data-value="2">2</button>
+          <button class="btn num_key btn-1" data-value="1">1</button>
+          <button class="btn num_key btn-00" data-value="00">00</button>
+          <button class="btn num_key btn-." data-value=".">.</button>
+          <button class="btn num_key btn-0" data-value="0">0</button>
+        </div>
+        <div class="op_key_container">
+          <button class="btn reset_btn" data-value="reset">C</button>
+          <button class="btn op_key" data-value="*">&times;</button>
+          <button class="btn op_key" data-value="/">&divide;</button>
+          <button class="btn op_key" data-value="+">&plus;</button>
+          <button class="btn op_key" data-value="-">&minus;</button>
+          <button class="btn equate_btn" data-value="equate">&Equal;</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
